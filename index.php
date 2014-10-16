@@ -1,7 +1,8 @@
 <!DOCTYPE>
 <html>
 <head>
-		<meta charset="UTF-8">
+			<meta charset="UTF-8">
+			<title>Throwdown Boxing Club</title>
 			<link rel="stylesheet" type="text/css" href="css/normalize.css">
 			<link rel="stylesheet" type="text/css" href="css/grid.css">
 			<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -12,17 +13,29 @@
 </head>
 <body>
 	<div id="wrapper">
-		<header>
-			<h1></h1>
-			<nav>
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Accolades</a></li>
-					<li><a href="">Media</a></li>
-					<li><a href="">Sponsorship</a></li>
-				</ul>
-			</nav>
-		</header>
+			<header class="grid-container">
+				<h1 class="grid-6">Throwdown Boxing Club</h1>
+				<nav class="grid-4">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Accolades</a></li>
+						<li><a href="">Media</a></li>
+						<li><a href="">Sponsorship</a></li>
+					</ul>
+				</nav>
+		</div>
+		<div class="grid-container">
+			<section class="grid-4">
+				<h2>About Us</h2>
+			</section>
+			<section class="grid-4">
+				<h2>Our Schedule</h2>
+			</section>
+			<section class="grid-4">
+				<h2>Our Location</h2>
+			</section>
+		</div>
+
 	</div>
 
 </body>
