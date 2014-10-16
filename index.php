@@ -23,8 +23,7 @@
 						<li><a href="">Sponsorship</a></li>
 					</ul>
 				</nav>
-		</div>
-		<img class="grid-12" src="">
+			</header>
 		<div class="grid-container">
 			<section class="grid-4">
 				<h2>About Us</h2>
