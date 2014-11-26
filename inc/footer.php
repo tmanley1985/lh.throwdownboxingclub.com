@@ -1,13 +1,21 @@
-	<div class="grid grid-pad">
-		<div class="col-1-3 center">
-			<div class="fb-comments" 
-				data-href="https://www.facebook.com/groups/550202908362867/" 
-				data-numposts="5" data-colorscheme="light">
-			</div>
-			<p>Site Design by Thomas A. Manley</p>
-		</div>
-	</div>
 
+</div>
+	<footer>
+		<div class="grid grid-pad">
+			<div class="col-2-3">
+				<div class="fb-comments" 
+					data-href="https://www.facebook.com/groups/550202908362867/" 
+					data-numposts="5" data-colorscheme="dark">
+				</div>
+			</div>
+			<div class="col-1-3 padded">
+				<h4>Site Design By</h4> <h2>Thomas A. Manley</h2>
+				<ul>
+					<li><a href="https://github.com/tmanley1985"><img src="/graphics/github.png"></a></li>
+					<li><a href="https://www.linkedin.com/pub/thomas-manley/a8/203/b9a"><img src="/graphics/linkedin.ico"></a></li>
+				</ul>
+			</div>
+	</footer>
 <script>
 
 	function initialize() {
