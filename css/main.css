@@ -3,11 +3,28 @@ WRAPPER, HEADER, NAV, FOOTER
 ****************************/
 html{
 	background:url('/graphics/boxerbackground.jpg') no-repeat center center fixed;
-	 -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
 
+}
+h1{
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-shadow:5px 5px 3px #db5b00;
+}
+h4{
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
 }
 #wrapper{
 	width:90%;
@@ -21,31 +38,24 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background: rgba(76,76,76,1);
-	background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
-	background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
-
-}
-header h1{
-	font-size: 1.75em;
-	font-weight: bold;
-	color: white;
 }
 nav li{
 	list-style: none;
 	display:inline;
 	width:25%;
 	height:100%;
-	margin-right:1%;
+	margin-right:2%;
+	
 }
 nav a{
 	width:25%;
 	height: 100%;
+	font-family: 'Shadows Into Light', cursive;
+	font-size:1.75em;
+	
+}
+nav a:hover{
+	font-weight:bold;
 }
 footer{
 	width:100%;
@@ -58,6 +68,19 @@ SECTION, CENTER
 	width:90%;
 	margin-left: auto;
 	margin-right:auto;
+}
+.info{
+	text-align:center;
+}
+.info h2{
+	font-size:1.5em;
+	font-weight: bold;
+	color:white;
+}
+.info h3,h4{
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-size: 1.25em;
+	color:white;
 }
 section{
 	padding:5%;
@@ -76,27 +99,38 @@ section > h2{
 	text-align: center;
 }
 .selected{
-	background: rgba(48,137,192,1);
-	background: -moz-linear-gradient(top, rgba(48,137,192,1) 0%, rgba(20,121,179,1) 50%, rgba(17,93,131,1) 51%, rgba(0,40,71,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(48,137,192,1)), color-stop(50%, rgba(20,121,179,1)), color-stop(51%, rgba(17,93,131,1)), color-stop(100%, rgba(0,40,71,1)));
-	background: -webkit-linear-gradient(top, rgba(48,137,192,1) 0%, rgba(20,121,179,1) 50%, rgba(17,93,131,1) 51%, rgba(0,40,71,1) 100%);
-	background: -o-linear-gradient(top, rgba(48,137,192,1) 0%, rgba(20,121,179,1) 50%, rgba(17,93,131,1) 51%, rgba(0,40,71,1) 100%);
-	background: -ms-linear-gradient(top, rgba(48,137,192,1) 0%, rgba(20,121,179,1) 50%, rgba(17,93,131,1) 51%, rgba(0,40,71,1) 100%);
-	background: linear-gradient(to bottom, rgba(48,137,192,1) 0%, rgba(20,121,179,1) 50%, rgba(17,93,131,1) 51%, rgba(0,40,71,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3089c0', endColorstr='#002847', GradientType=0 );
+	color:#db5b00;
+	font-weight: bold;
+	font-size: 2em;
+}
+#map_canvas{
+	width:50%;
+	height:75%;
+	border:3px solid #db5b00;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1%;
+}
+iframe{
+  display: block;
+  height: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  border: 10px solid rgba(76,76,76,1);
 }
 /********
 Responsive Slider
 ********/
+.rslides_container{
+width:75%;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+}
 .rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  margin: 0 auto;
   }
-
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -116,15 +150,151 @@ Responsive Slider
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  width: 75%;
-  border: 10px solid rgba(76,76,76,1);
+  width: 100%;
+  border: 5px solid rgba(76,76,76,1);
  }
- /************************
+.caption {
+position: absolute;
+display: block;
+bottom: 0;
+left: 0;
+right: 0;
+margin-right:auto;
+margin-left:auto;
+width:75%;
+padding: 15px;
+text-align: center;
+background: #000;
+background: rgba(0,0,0, .8);
+color: #fff;
+}
+
+.centered-btns_nav {
+  z-index: 3;
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 50%;
+  left: 0;
+  opacity: 0.7;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("/graphics/themes.gif") no-repeat left top;
+  margin-top: -45px;
+  }
+
+.centered-btns_nav:active {
+  opacity: 1.0;
+  }
+
+.centered-btns_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  }
+
+.transparent-btns_nav {
+  z-index: 3;
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 0;
+  left: 0;
+  display: block;
+  background: #fff; /* Fix for IE6-9 */
+  opacity: 0;
+  filter: alpha(opacity=1);
+  width: 48%;
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 91%;
+  }
+
+.transparent-btns_nav.next {
+  left: auto;
+  right: 0;
+  }
+
+.large-btns_nav {
+  z-index: 3;
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  opacity: 0.6;
+  text-indent: -9999px;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #000 url("themes.gif") no-repeat left 50%;
+  width: 38px;
+  }
+
+.large-btns_nav:active {
+  opacity: 1.0;
+  }
+
+.large-btns_nav.next {
+  left: auto;
+  background-position: right 50%;
+  right: 0;
+  }
+
+.centered-btns_nav:focus,
+.transparent-btns_nav:focus,
+.large-btns_nav:focus {
+  outline: none;
+  }
+
+.centered-btns_tabs,
+.transparent-btns_tabs,
+.large-btns_tabs {
+  margin-top: 10px;
+  text-align: center;
+  }
+
+.centered-btns_tabs li,
+.transparent-btns_tabs li,
+.large-btns_tabs li {
+  display: inline;
+  float: none;
+  _float: left;
+  *float: left;
+  margin-right: 5px;
+  }
+
+.centered-btns_tabs a,
+.transparent-btns_tabs a,
+.large-btns_tabs a {
+  text-indent: -9999px;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #ccc;
+  background: rgba(0,0,0, .2);
+  display: inline-block;
+  _display: block;
+  *display: block;
+  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  width: 9px;
+  height: 9px;
+  }
+
+.centered-btns_here a,
+.transparent-btns_here a,
+.large-btns_here a {
+  background: #222;
+  background: rgba(0,0,0, .8);
+  }
+
+/***************************
 GENERAL ELEMENTS
 ***************************/
 a{
 	text-decoration: none;
 	color: white;
 	font-size: 1.25em;
-	font-weight: bold;
 }
